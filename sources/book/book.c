@@ -1,4 +1,4 @@
-#include "../../headers/book/book.h"
+#include "book/book.h"
 #include <stdio.h>
 
 void displayBook(struct Book book) {

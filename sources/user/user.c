@@ -1,4 +1,4 @@
-#include "../../headers/user/user.h"
+#include "user/user.h"
 #include <stdio.h>
 
 void displayUser(struct User user) {

@@ -1,5 +1,4 @@
-#include "headers/cli/command_line_tool.h"
-#include <stddef.h>
+#include "cli/command_line_tool.h"
 #include <stdlib.h>
 
 struct bookNode* booksHead = NULL;

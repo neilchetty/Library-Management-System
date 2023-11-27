@@ -1,5 +1,5 @@
-#include "../../headers/user/user_management.h"
-#include "../../headers/user/user_file_handling.h"
+#include "user/user_management.h"
+#include "user/user_file_handling.h"
 #include <stdlib.h>
 #include <stdio.h>
 

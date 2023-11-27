@@ -1,4 +1,4 @@
-#include "../../headers/cli/command_line_tool.h"
+#include "cli/command_line_tool.h"
 
 void displayMainMenu() {
     printf("WELCOME TO LIBRARY MANAGEMENT SYSTEM\n");

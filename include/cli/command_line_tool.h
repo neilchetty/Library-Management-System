@@ -1,10 +1,10 @@
 #ifndef COMMAND_LINE_TOOL_H
 #define COMMAND_LINE_TOOL_H
 
-#include "../book/library_management.h"
-#include "../user/user_management.h"
-#include "../book/book_file_handling.h"
-#include "../transaction/transaction_management.h"
+#include "book/library_management.h"
+#include "user/user_management.h"
+#include "book/book_file_handling.h"
+#include "transaction/transaction_management.h"
 
 void displayMainMenu();
 void displayMainMenuHelper(int choice);

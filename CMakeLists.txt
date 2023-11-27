@@ -5,24 +5,25 @@ set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c17")
 add_executable(LibraryManagementSystem
         main.c
-        headers/book/book.h
-        headers/book/library_management.h
-        headers/book/book_file_handling.h
+        include/book/book.h
+        include/book/library_management.h
+        include/book/book_file_handling.h
         sources/book/library_management.c
         sources/book/book_file_handling.c
         sources/book/book.c
         sources/user/user_management.c
-        headers/user/user_management.h
-        headers/user/user.h
+        include/user/user_management.h
+        include/user/user.h
         sources/user/user.c
         sources/user/user_file_handling.c
-        headers/user/user_file_handling.h
+        include/user/user_file_handling.h
         sources/transaction/transaction.c
         sources/transaction/transaction_file_handling.c
         sources/transaction/transaction_management.c
-        headers/transaction/transaction.h
-        headers/transaction/transaction_file_handling.h
-        headers/transaction/transaction_management.h
+        include/transaction/transaction.h
+        include/transaction/transaction_file_handling.h
+        include/transaction/transaction_management.h
         sources/cli/command_line_tool.c
-        headers/cli/command_line_tool.h
+        include/cli/command_line_tool.h
 )
+target_include_directories(LibraryManagementSystem PRIVATE include)

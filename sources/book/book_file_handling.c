@@ -1,10 +1,8 @@
-#include "../../headers/book/book_file_handling.h"
-#include "../../headers/book/library_management.h"
-#include "../../headers/user/user_file_handling.h"
-#include "../../headers/transaction/transaction_file_handling.h"
-
+#include "book/book_file_handling.h"
+#include "book/library_management.h"
+#include "user/user_file_handling.h"
+#include "transaction/transaction_file_handling.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 int numberOfLines(FILE* input) {
     int lines = 0;

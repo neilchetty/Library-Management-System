@@ -1,5 +1,5 @@
-#include "../../headers/transaction/transaction.h"
-#include "../../headers/user/user_management.h"
+#include "transaction/transaction.h"
+#include "user/user_management.h"
 #include <stdio.h>
 
 void displayTransaction(const int serialNumber) {

@@ -1,5 +1,5 @@
-#include "../../headers/transaction/transaction_file_handling.h"
-#include "../../headers/user/user_management.h"
+#include "transaction/transaction_file_handling.h"
+#include "user/user_management.h"
 
 void saveTransactionDataToFileHelper(FILE* output) {
     struct userNode* current = usersHead;

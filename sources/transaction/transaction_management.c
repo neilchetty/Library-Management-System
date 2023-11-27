@@ -1,5 +1,5 @@
-#include "../../headers/transaction/transaction_management.h"
-#include "../../headers/user/user_management.h"
+#include "transaction/transaction_management.h"
+#include "user/user_management.h"
 #include <stdio.h>
 #include <string.h>
 
